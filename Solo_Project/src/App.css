@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.container-item {
+  display: flex;
+  gap: 10px;
+}
+
+/* Square Badges */
+.Gray-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #1f2937;
+  background-color: #f3f4f6;
+  text-align: center;
+}
+
+.Red-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #991b1b;
+  background-color: #fee2e2;
+  text-align: center;
+}
+
+.Yellow-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #92400e;
+  background-color: #fef3c7;
+  text-align: center;
+}
+.Green-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #065f46;
+  background-color: #d1fae5;
+  text-align: center;
+}
+.Blue-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #1e40af;
+  background-color: #dbeafe;
+  text-align: center;
+}
+.Indigo-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #3730a3;
+  background-color: #e0e7ff;
+  text-align: center;
+}
+.Purple-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #5b21b6;
+  background-color: #ede9fe;
+  text-align: center;
+}
+.Pink-Square {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #9d174d;
+  background-color: #fce7f3;
+  text-align: center;
+}
+
+/* Pill Badges */
+.Gray-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #1f2937;
+  background-color: #f3f4f6;
+  text-align: center;
+}
+
+.Red-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #991b1b;
+  background-color: #fee2e2;
+  text-align: center;
+}
+
+.Yellow-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #92400e;
+  background-color: #fef3c7;
+  text-align: center;
+}
+.Green-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #065f46;
+  background-color: #d1fae5;
+  text-align: center;
+}
+.Blue-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #1e40af;
+  background-color: #dbeafe;
+  text-align: center;
+}
+.Indigo-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #3730a3;
+  background-color: #e0e7ff;
+  text-align: center;
+}
+.Purple-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #5b21b6;
+  background-color: #ede9fe;
+  text-align: center;
+}
+.Pink-Pill {
+  width: 67px;
+  height: 24px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #9d174d;
+  background-color: #fce7f3;
+  text-align: center;
+}
+
+/* banner */
+.Success-multiline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #ecfdf5;
+  color: #065f46;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Warning-multiline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #fffbeb;
+  color: #b45309;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Error-multiline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #fef2f2;
+  color: #92400e;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Neutral-multiline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #eff6ff;
+  color: #1c51b9;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Success-Singleline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #ecfdf5;
+  color: #065f46;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Warning-Singleline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #fffbeb;
+  color: #b45309;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Error-Singleline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #fef2f2;
+  color: #92400e;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Neutral-Singleline-Banners {
+  width: 896px;
+  height: 80px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 6px;
+  background-color: #eff6ff;
+  color: #1c51b9;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container-banner {
+  display: flex;
+  gap: 12px;
+  margin: 10px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.card {
+  width: 384px;
+  height: 208px;
+  gap: 32px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #f9fafb;
+  padding: 10px;
+  position: relative;
+}
+
+.content {
+  margin-top: 15%;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 25px 0px #0000001a;
+  cursor: pointer;
+}
+
+.cardIcon {
+  background-color: #3f75fe;
+  box-shadow: 0px 4px 6px -2px #0000000d;
+  box-shadow: 0px 10px 15px -3px #0000001a;
+  width: 48px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 34px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: -30px; /* Adjust this to move the icon vertically */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cardTitle {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #111827;
+}
+
+.cardText {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.card-container {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
